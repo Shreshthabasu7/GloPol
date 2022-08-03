@@ -17,6 +17,7 @@
 		0FAA001A289ABCC700178C8A /* GloPolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA0019289ABCC700178C8A /* GloPolTests.swift */; };
 		0FAA0024289ABCC700178C8A /* GloPolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA0023289ABCC700178C8A /* GloPolUITests.swift */; };
 		0FAA0026289ABCC700178C8A /* GloPolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA0025289ABCC700178C8A /* GloPolUITestsLaunchTests.swift */; };
+		0FAA0033289AEA8500178C8A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA0032289AEA8500178C8A /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0FAA001F289ABCC700178C8A /* GloPolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GloPolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FAA0023289ABCC700178C8A /* GloPolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloPolUITests.swift; sourceTree = "<group>"; };
 		0FAA0025289ABCC700178C8A /* GloPolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloPolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FAA0032289AEA8500178C8A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0FAAFFFC289ABCC500178C8A /* GloPol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GloPol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FAAFFFF289ABCC500178C8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +124,7 @@
 				0FAA0001289ABCC500178C8A /* SceneDelegate.swift */,
 				0FAA0003289ABCC500178C8A /* ViewController.swift */,
 				0FAA0005289ABCC500178C8A /* Main.storyboard */,
+				0FAA0032289AEA8500178C8A /* SecondViewController.swift */,
 				0FAA000B289ABCC700178C8A /* Assets.xcassets */,
 				0FAA000D289ABCC700178C8A /* LaunchScreen.storyboard */,
 				0FAA0010289ABCC700178C8A /* Info.plist */,
@@ -281,6 +284,7 @@
 				0FAA000A289ABCC500178C8A /* GloPol.xcdatamodeld in Sources */,
 				0FAA0004289ABCC500178C8A /* ViewController.swift in Sources */,
 				0FAA0000289ABCC500178C8A /* AppDelegate.swift in Sources */,
+				0FAA0033289AEA8500178C8A /* SecondViewController.swift in Sources */,
 				0FAA0002289ABCC500178C8A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
