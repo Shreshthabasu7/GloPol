@@ -128,43 +128,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sudan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSn-91-o5u">
-                                <rect key="frame" x="186" y="146" width="49" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoK-7C-wgf">
-                                <rect key="frame" x="144" y="251" width="67" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Government"/>
-                                <connections>
-                                    <action selector="GovernmentButtonTapped:" destination="cl4-y2-CeT" eventType="touchUpInside" id="1xN-ou-16t"/>
-                                    <segue destination="vaU-VC-X9i" kind="show" id="GZZ-4h-OFz"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rcr-Os-lMj">
-                                <rect key="frame" x="122" y="408" width="123" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Political Parties"/>
-                                <connections>
-                                    <action selector="PartiesButtonTapped:" destination="cl4-y2-CeT" eventType="touchUpInside" id="nPc-eg-lEb"/>
-                                    <segue destination="M5D-t9-33G" kind="show" id="bBR-lG-3mN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTb-sq-Adw">
-                                <rect key="frame" x="157" y="558" width="121" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="The Democratic Process"/>
-                                <connections>
-                                    <action selector="DemocraticButtonTapped:" destination="cl4-y2-CeT" eventType="touchUpInside" id="a6i-FH-LsI"/>
-                                    <segue destination="xJd-3P-UbS" kind="show" id="R2d-Hy-30E"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fA5-t1-ua6">
                                 <rect key="frame" x="19" y="42" width="69" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -172,6 +135,71 @@
                                 <buttonConfiguration key="configuration" style="plain" title="&lt; Back"/>
                                 <connections>
                                     <segue destination="UdY-JJ-uvd" kind="show" id="Ihb-uX-I4n"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unnamed-3" translatesAutoresizingMaskIntoConstraints="NO" id="bdT-SZ-bH3">
+                                <rect key="frame" x="-215" y="0.0" width="837" height="959"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96e-36-D3i">
+                                <rect key="frame" x="92" y="487" width="223" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Political Parties">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="29" name="Palatino-Roman"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <attributedString key="attributedSubtitle"/>
+                                    <color key="baseForegroundColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.69411766529999996" green="0.29803922770000002" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="M5D-t9-33G" kind="show" id="GCT-dT-3Su"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3p-kp-ubb">
+                                <rect key="frame" x="92" y="330" width="223" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Government">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="30" name="Palatino-Roman"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.69411766529999996" green="0.29803922770000002" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="vaU-VC-X9i" kind="show" id="Jfv-cJ-kCM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhh-Zs-ln5">
+                                <rect key="frame" x="92" y="656" width="223" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="The Political Process">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="21" name="Palatino-Roman"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.69411766529999996" green="0.29803922770000002" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="xJd-3P-UbS" kind="show" id="fcB-8b-mz3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -188,7 +216,7 @@
         <scene sceneID="iaC-7z-uAF">
             <objects>
                 <viewController id="vaU-VC-X9i" customClass="SudGovViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="taj-5g-Uzt">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="taj-5g-Uzt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -201,12 +229,12 @@
                                     <segue destination="cl4-y2-CeT" kind="show" id="W38-yz-Pmo"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Akr-lG-V8Z">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Akr-lG-V8Z">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMP-0a-dG7">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gMP-0a-dG7">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="gao-bU-9FA"/>
                                         </constraints>
@@ -242,7 +270,7 @@
         <scene sceneID="8rX-xS-HXu">
             <objects>
                 <viewController id="M5D-t9-33G" customClass="SudPartyViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="SqO-dQ-aWG">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="SqO-dQ-aWG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -255,12 +283,12 @@
                                     <segue destination="cl4-y2-CeT" kind="show" id="VGS-IP-2xK"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="par-ph-60Z">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="par-ph-60Z">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xD4-3I-Vjc">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xD4-3I-Vjc">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="Umk-Bj-9iu"/>
                                         </constraints>
@@ -296,7 +324,7 @@
         <scene sceneID="m7x-nA-OF3">
             <objects>
                 <viewController id="xJd-3P-UbS" customClass="SudDemoViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DIN-jn-4s1">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="DIN-jn-4s1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -309,12 +337,12 @@
                                     <segue destination="cl4-y2-CeT" kind="show" id="Ni9-xS-71x"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rLS-Yr-Qkh">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rLS-Yr-Qkh">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BUX-H6-eOa">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BUX-H6-eOa">
                                         <rect key="frame" x="0.0" y="0.0" width="406" height="1500"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="htw-s3-E2h"/>
                                         </constraints>
@@ -354,43 +382,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bulgaria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ltg-A4-aIs">
-                                <rect key="frame" x="186" y="144" width="62" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6M8-wW-DKb">
-                                <rect key="frame" x="153" y="358" width="123" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Political Parties"/>
-                                <connections>
-                                    <action selector="PartiesButtonTapped:" destination="cA5-UR-KFN" eventType="touchUpInside" id="LDN-EW-qvd"/>
-                                    <segue destination="ma1-hG-1aP" kind="show" id="Yo4-Rc-jVc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aI8-IQ-VMN">
-                                <rect key="frame" x="123" y="517" width="183" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="The Democratic Process"/>
-                                <connections>
-                                    <action selector="DemocraticButtonTapped:" destination="cA5-UR-KFN" eventType="touchUpInside" id="8Ol-JG-YVk"/>
-                                    <segue destination="YSU-M7-26c" kind="show" id="ZVj-0U-R2w"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdF-eN-5mn">
-                                <rect key="frame" x="78" y="214" width="273" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Government"/>
-                                <connections>
-                                    <action selector="GovernmentButtonTapped:" destination="cA5-UR-KFN" eventType="touchUpInside" id="IdW-T1-fpl"/>
-                                    <segue destination="KX5-Xi-x2X" kind="show" id="llE-Ab-028"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBu-1A-zYI">
                                 <rect key="frame" x="19" y="31" width="69" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -398,6 +389,71 @@
                                 <buttonConfiguration key="configuration" style="plain" title="&lt; Back"/>
                                 <connections>
                                     <segue destination="UdY-JJ-uvd" kind="show" id="kDc-Pe-7Lp"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unnamed-4" translatesAutoresizingMaskIntoConstraints="NO" id="PCG-gW-Fj1">
+                                <rect key="frame" x="-250" y="-27" width="924" height="980"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xrS-BC-xNg">
+                                <rect key="frame" x="96" y="335" width="223" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Government">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="30" name="Palatino-Roman"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.69411766529999996" green="0.29803922770000002" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="KX5-Xi-x2X" kind="show" id="N4z-Ra-EK7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NyY-ej-l1a">
+                                <rect key="frame" x="96" y="466" width="223" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Political Parties">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="29" name="Palatino-Roman"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <attributedString key="attributedSubtitle"/>
+                                    <color key="baseForegroundColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.69411766529999996" green="0.29803922770000002" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ma1-hG-1aP" kind="show" id="utT-Jh-gjF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94S-sg-g9u">
+                                <rect key="frame" x="96" y="633" width="223" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="The Political Process">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="21" name="Palatino-Roman"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.69411766529999996" green="0.29803922770000002" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="YSU-M7-26c" kind="show" id="XPe-wr-8ru"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -414,7 +470,7 @@
         <scene sceneID="f8j-vM-Qar">
             <objects>
                 <viewController id="KX5-Xi-x2X" customClass="BulgGovViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="E4r-bB-aeh">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="E4r-bB-aeh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -427,12 +483,12 @@
                                     <segue destination="cA5-UR-KFN" kind="show" id="fs2-9Y-kcr"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Zz-v7-Cb4">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Zz-v7-Cb4">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Znp-WK-kzI">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Znp-WK-kzI">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="NdH-yZ-w14"/>
                                         </constraints>
@@ -468,7 +524,7 @@
         <scene sceneID="09f-hd-LDE">
             <objects>
                 <viewController id="ma1-hG-1aP" customClass="BulgPartyViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="XR0-up-QAX">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="XR0-up-QAX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -481,12 +537,12 @@
                                     <segue destination="cA5-UR-KFN" kind="show" id="zrc-ih-rGo"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIv-Vg-GUg">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mIv-Vg-GUg">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W8A-k9-q2T">
-                                        <rect key="frame" x="0.0" y="0.0" width="406" height="1500"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W8A-k9-q2T">
+                                        <rect key="frame" x="0.0" y="0.0" width="406" height="1596"/>
+                                        <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="0ht-Ai-Ysx"/>
                                         </constraints>
@@ -522,7 +578,7 @@
         <scene sceneID="elc-iU-8B9">
             <objects>
                 <viewController id="YSU-M7-26c" customClass="BulgDemoViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="eId-eY-ZBV">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="eId-eY-ZBV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -535,12 +591,12 @@
                                     <segue destination="cA5-UR-KFN" kind="show" id="aOr-QJ-tNh"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jzs-oR-hC5">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jzs-oR-hC5">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qzq-cG-yGI">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qzq-cG-yGI">
                                         <rect key="frame" x="0.0" y="0.0" width="406" height="1500"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="Sty-ec-Nug"/>
                                         </constraints>
@@ -580,43 +636,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Taiwan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRL-EB-Zkr">
-                                <rect key="frame" x="158" y="157" width="53" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jrs-a8-0jF">
-                                <rect key="frame" x="156" y="273" width="104" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Government"/>
-                                <connections>
-                                    <action selector="GovernmentButtonTapped:" destination="dVG-bd-hk1" eventType="touchUpInside" id="vrZ-xR-Rw6"/>
-                                    <segue destination="irb-O4-Fcn" kind="show" id="Bko-Gt-9I5"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ot1-zx-DS3">
-                                <rect key="frame" x="130" y="374" width="123" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Political Parties"/>
-                                <connections>
-                                    <action selector="PartiesButtonTapped:" destination="dVG-bd-hk1" eventType="touchUpInside" id="1NT-yI-zTB"/>
-                                    <segue destination="uyL-tk-Ow9" kind="show" id="phS-om-wGH"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bd-PL-6kO">
-                                <rect key="frame" x="91" y="524" width="201" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="The Democratic Process"/>
-                                <connections>
-                                    <action selector="DemocraticButtonTapped:" destination="dVG-bd-hk1" eventType="touchUpInside" id="pwR-JO-szM"/>
-                                    <segue destination="Oz9-nP-zDT" kind="show" id="vKt-Nf-X4s"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xro-Km-1Lw">
                                 <rect key="frame" x="11" y="56" width="69" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -624,6 +643,71 @@
                                 <buttonConfiguration key="configuration" style="plain" title="&lt; Back"/>
                                 <connections>
                                     <segue destination="UdY-JJ-uvd" kind="show" id="UTS-pj-YNR"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="taiwanTitle" translatesAutoresizingMaskIntoConstraints="NO" id="N0N-0J-Bi7">
+                                <rect key="frame" x="-158" y="-12" width="724" height="969"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caw-O2-Bam">
+                                <rect key="frame" x="93" y="473" width="223" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Political Parties">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="29" name="Palatino-Roman"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <attributedString key="attributedSubtitle"/>
+                                    <color key="baseForegroundColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.69411766529999996" green="0.29803922770000002" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="uyL-tk-Ow9" kind="show" id="9c4-5p-j20"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gu7-y4-HJN">
+                                <rect key="frame" x="93" y="342" width="223" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Government">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="30" name="Palatino-Roman"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.69411766529999996" green="0.29803922770000002" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="irb-O4-Fcn" kind="show" id="AYg-mY-adl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBV-2s-DzN">
+                                <rect key="frame" x="93" y="622" width="223" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="The Political Process">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="21" name="Palatino-Roman"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.69411766529999996" green="0.29803922770000002" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Oz9-nP-zDT" kind="show" id="fL7-QG-533"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -640,7 +724,7 @@
         <scene sceneID="Ydf-Jk-9dI">
             <objects>
                 <viewController id="irb-O4-Fcn" customClass="TaiGovViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="17u-JZ-RpD">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="17u-JZ-RpD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -653,12 +737,12 @@
                                     <segue destination="dVG-bd-hk1" kind="show" id="0LC-Ib-QDy"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JE5-J7-Tkf">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JE5-J7-Tkf">
                                 <rect key="frame" x="0.0" y="44" width="414" height="798"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXE-Zm-dXt">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fXE-Zm-dXt">
+                                        <rect key="frame" x="0.0" y="-66" width="414" height="1566"/>
+                                        <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="j23-j7-gbB"/>
                                         </constraints>
@@ -694,7 +778,7 @@
         <scene sceneID="S3W-fa-t2t">
             <objects>
                 <viewController id="uyL-tk-Ow9" customClass="TaiwPartyViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8RO-dU-m7s">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8RO-dU-m7s">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -707,12 +791,12 @@
                                     <segue destination="dVG-bd-hk1" kind="show" id="X6I-zI-scE"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Gs-ns-1c4">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Gs-ns-1c4">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lym-OK-thM">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lym-OK-thM">
                                         <rect key="frame" x="0.0" y="0.0" width="406" height="1500"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="SWk-g9-9rV"/>
                                         </constraints>
@@ -748,7 +832,7 @@
         <scene sceneID="0Xa-HK-kuL">
             <objects>
                 <viewController id="Oz9-nP-zDT" customClass="TaiwDemoViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="m2c-89-n6R">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="m2c-89-n6R">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -771,9 +855,9 @@
                                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mPM-xk-TpE">
                                                 <rect key="frame" x="0.0" y="0.0" width="406" height="842"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oXH-7d-69d">
-                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="1500"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oXH-7d-69d">
+                                                        <rect key="frame" x="0.0" y="0.0" width="425" height="1500"/>
+                                                        <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1500" id="1qB-qn-bF1"/>
                                                         </constraints>
@@ -820,43 +904,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mexico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLM-Rc-Dpa">
-                                <rect key="frame" x="174" y="137" width="94" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cng-4j-ZP2">
-                                <rect key="frame" x="147" y="253" width="121" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Government"/>
-                                <connections>
-                                    <action selector="GovernmentButtonTapped:" destination="5OX-s7-kMN" eventType="touchUpInside" id="xmP-dL-Kcp"/>
-                                    <segue destination="NUk-lL-PPZ" kind="show" id="ZEX-ry-HSG"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HE8-b0-avK">
-                                <rect key="frame" x="133" y="394" width="123" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Political Parties"/>
-                                <connections>
-                                    <action selector="PartiesButtonTapped:" destination="5OX-s7-kMN" eventType="touchUpInside" id="KTK-Hy-VvP"/>
-                                    <segue destination="KCo-Ow-kgs" kind="show" id="ZCy-Fw-fj3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o0H-PI-Dkr">
-                                <rect key="frame" x="93" y="524" width="229" height="184"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="The Democratic Process"/>
-                                <connections>
-                                    <action selector="DemocraticButtonTapped:" destination="5OX-s7-kMN" eventType="touchUpInside" id="iuB-Z3-H0g"/>
-                                    <segue destination="IPK-Ge-OUq" kind="show" id="GpV-eH-jUy"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAS-vQ-UOu">
                                 <rect key="frame" x="20" y="44" width="74" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -872,6 +919,71 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="UdY-JJ-uvd" kind="show" id="cPw-yI-O7T"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mexicotitle" translatesAutoresizingMaskIntoConstraints="NO" id="ZB6-5b-8cw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="904"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPv-gp-3mC">
+                                <rect key="frame" x="108" y="325" width="223" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Government">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="30" name="Palatino-Roman"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.69411766529999996" green="0.29803922770000002" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="NUk-lL-PPZ" kind="show" id="yzh-eJ-kHM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0yr-BJ-LYg">
+                                <rect key="frame" x="108" y="629" width="223" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="The Political Process">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="21" name="Palatino-Roman"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.69411766529999996" green="0.29803922770000002" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="IPK-Ge-OUq" kind="show" id="GUg-Nt-MlH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2l-Ow-yYM">
+                                <rect key="frame" x="108" y="470" width="223" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Political Parties">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="29" name="Palatino-Roman"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <attributedString key="attributedSubtitle"/>
+                                    <color key="baseForegroundColor" red="0.50588238240000005" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.69411766529999996" green="0.29803922770000002" blue="0.27843138579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="KCo-Ow-kgs" kind="show" id="4nX-so-CJ7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -906,10 +1018,10 @@
                                 </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GMG-27-BQQ">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="788"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="798"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lTs-Zo-hhN">
-                                        <rect key="frame" x="0.0" y="-144" width="414" height="1500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1603"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bnw-ob-7r2">
                                                 <rect key="frame" x="186" y="387" width="42" height="21"/>
@@ -919,7 +1031,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="HH3-4B-Zi2"/>
                                         </constraints>
@@ -969,10 +1081,10 @@
                                 </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q3u-Tx-W01">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tyd-zJ-b7M">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1596"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPc-Iv-YqQ">
                                                 <rect key="frame" x="186" y="270" width="42" height="21"/>
@@ -982,7 +1094,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="bdS-8p-KH9"/>
                                         </constraints>
@@ -1017,7 +1129,7 @@
         <scene sceneID="kvE-Mp-YhH">
             <objects>
                 <viewController id="IPK-Ge-OUq" customClass="MexDemoViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="qWL-yl-Frs">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="qWL-yl-Frs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -1030,12 +1142,21 @@
                                     <segue destination="5OX-s7-kMN" kind="show" id="mQa-L1-U7P"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZIM-F3-bfu">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZIM-F3-bfu">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OAL-jz-ArK">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OAL-jz-ArK">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1596"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FeU-Yd-YnX">
+                                                <rect key="frame" x="221" y="307" width="42" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="wnR-2F-3AF"/>
                                         </constraints>
@@ -1073,10 +1194,14 @@
         <segue reference="GpD-kJ-D4w"/>
         <segue reference="aOr-QJ-tNh"/>
         <segue reference="Ni9-xS-71x"/>
-        <segue reference="cPw-yI-O7T"/>
+        <segue reference="kDc-Pe-7Lp"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Mexicotitle" width="378" height="840"/>
+        <image name="taiwanTitle" width="350" height="812"/>
         <image name="unnamed" width="430" height="946"/>
+        <image name="unnamed-3" width="376" height="842"/>
+        <image name="unnamed-4" width="374" height="846"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
