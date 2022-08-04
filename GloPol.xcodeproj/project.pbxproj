@@ -18,6 +18,22 @@
 		0FAA0024289ABCC700178C8A /* GloPolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA0023289ABCC700178C8A /* GloPolUITests.swift */; };
 		0FAA0026289ABCC700178C8A /* GloPolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA0025289ABCC700178C8A /* GloPolUITestsLaunchTests.swift */; };
 		0FAA0033289AEA8500178C8A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA0032289AEA8500178C8A /* SecondViewController.swift */; };
+		FAAEEDD3289BF69E000B9C22 /* SudanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEDD2289BF69E000B9C22 /* SudanViewController.swift */; };
+		FAAEEDD5289BF936000B9C22 /* BulgariaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEDD4289BF936000B9C22 /* BulgariaViewController.swift */; };
+		FAAEEDD7289BF96E000B9C22 /* MexicoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEDD6289BF96E000B9C22 /* MexicoViewController.swift */; };
+		FAAEEDD9289BF984000B9C22 /* VietnamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEDD8289BF984000B9C22 /* VietnamViewController.swift */; };
+		FAAEEDDB289BFF36000B9C22 /* MexGovViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEDDA289BFF36000B9C22 /* MexGovViewController.swift */; };
+		FAAEEDDD289BFF4E000B9C22 /* MexPartiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEDDC289BFF4E000B9C22 /* MexPartiesViewController.swift */; };
+		FAAEEDDF289BFF6C000B9C22 /* MexDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEDDE289BFF6C000B9C22 /* MexDemoViewController.swift */; };
+		FAAEEDE1289BFFD4000B9C22 /* TaiGovViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEDE0289BFFD4000B9C22 /* TaiGovViewController.swift */; };
+		FAAEEDE3289C001D000B9C22 /* TaiwPartyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEDE2289C001D000B9C22 /* TaiwPartyViewController.swift */; };
+		FAAEEDE5289C0052000B9C22 /* TaiwDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEDE4289C0052000B9C22 /* TaiwDemoViewController.swift */; };
+		FAAEEDE7289C007A000B9C22 /* SudGovViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEDE6289C007A000B9C22 /* SudGovViewController.swift */; };
+		FAAEEDE9289C00A2000B9C22 /* SudPartyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEDE8289C00A2000B9C22 /* SudPartyViewController.swift */; };
+		FAAEEDEB289C00DB000B9C22 /* SudDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEDEA289C00DB000B9C22 /* SudDemoViewController.swift */; };
+		FAAEEDED289C011C000B9C22 /* BulgGovViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEDEC289C011C000B9C22 /* BulgGovViewController.swift */; };
+		FAAEEDEF289C01D2000B9C22 /* BulgPartyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEDEE289C01D2000B9C22 /* BulgPartyViewController.swift */; };
+		FAAEEDF1289C01EE000B9C22 /* BulgDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEEDF0289C01EE000B9C22 /* BulgDemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +69,22 @@
 		0FAA0032289AEA8500178C8A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0FAAFFFC289ABCC500178C8A /* GloPol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GloPol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FAAFFFF289ABCC500178C8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAAEEDD2289BF69E000B9C22 /* SudanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudanViewController.swift; sourceTree = "<group>"; };
+		FAAEEDD4289BF936000B9C22 /* BulgariaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulgariaViewController.swift; sourceTree = "<group>"; };
+		FAAEEDD6289BF96E000B9C22 /* MexicoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexicoViewController.swift; sourceTree = "<group>"; };
+		FAAEEDD8289BF984000B9C22 /* VietnamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VietnamViewController.swift; sourceTree = "<group>"; };
+		FAAEEDDA289BFF36000B9C22 /* MexGovViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexGovViewController.swift; sourceTree = "<group>"; };
+		FAAEEDDC289BFF4E000B9C22 /* MexPartiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexPartiesViewController.swift; sourceTree = "<group>"; };
+		FAAEEDDE289BFF6C000B9C22 /* MexDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexDemoViewController.swift; sourceTree = "<group>"; };
+		FAAEEDE0289BFFD4000B9C22 /* TaiGovViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiGovViewController.swift; sourceTree = "<group>"; };
+		FAAEEDE2289C001D000B9C22 /* TaiwPartyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwPartyViewController.swift; sourceTree = "<group>"; };
+		FAAEEDE4289C0052000B9C22 /* TaiwDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwDemoViewController.swift; sourceTree = "<group>"; };
+		FAAEEDE6289C007A000B9C22 /* SudGovViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudGovViewController.swift; sourceTree = "<group>"; };
+		FAAEEDE8289C00A2000B9C22 /* SudPartyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudPartyViewController.swift; sourceTree = "<group>"; };
+		FAAEEDEA289C00DB000B9C22 /* SudDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudDemoViewController.swift; sourceTree = "<group>"; };
+		FAAEEDEC289C011C000B9C22 /* BulgGovViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulgGovViewController.swift; sourceTree = "<group>"; };
+		FAAEEDEE289C01D2000B9C22 /* BulgPartyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulgPartyViewController.swift; sourceTree = "<group>"; };
+		FAAEEDF0289C01EE000B9C22 /* BulgDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulgDemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +132,18 @@
 		0FAAFFF3289ABCC500178C8A = {
 			isa = PBXGroup;
 			children = (
+				FAAEEDF0289C01EE000B9C22 /* BulgDemoViewController.swift */,
+				FAAEEDEE289C01D2000B9C22 /* BulgPartyViewController.swift */,
+				FAAEEDEC289C011C000B9C22 /* BulgGovViewController.swift */,
+				FAAEEDEA289C00DB000B9C22 /* SudDemoViewController.swift */,
+				FAAEEDE8289C00A2000B9C22 /* SudPartyViewController.swift */,
+				FAAEEDE6289C007A000B9C22 /* SudGovViewController.swift */,
+				FAAEEDE4289C0052000B9C22 /* TaiwDemoViewController.swift */,
+				FAAEEDE2289C001D000B9C22 /* TaiwPartyViewController.swift */,
+				FAAEEDE0289BFFD4000B9C22 /* TaiGovViewController.swift */,
+				FAAEEDDE289BFF6C000B9C22 /* MexDemoViewController.swift */,
+				FAAEEDDC289BFF4E000B9C22 /* MexPartiesViewController.swift */,
+				FAAEEDDA289BFF36000B9C22 /* MexGovViewController.swift */,
 				0FAAFFFE289ABCC500178C8A /* GloPol */,
 				0FAA0018289ABCC700178C8A /* GloPolTests */,
 				0FAA0022289ABCC700178C8A /* GloPolUITests */,
@@ -124,6 +168,10 @@
 				0FAA0001289ABCC500178C8A /* SceneDelegate.swift */,
 				0FAA0003289ABCC500178C8A /* ViewController.swift */,
 				0FAA0005289ABCC500178C8A /* Main.storyboard */,
+				FAAEEDD8289BF984000B9C22 /* VietnamViewController.swift */,
+				FAAEEDD6289BF96E000B9C22 /* MexicoViewController.swift */,
+				FAAEEDD4289BF936000B9C22 /* BulgariaViewController.swift */,
+				FAAEEDD2289BF69E000B9C22 /* SudanViewController.swift */,
 				0FAA0032289AEA8500178C8A /* SecondViewController.swift */,
 				0FAA000B289ABCC700178C8A /* Assets.xcassets */,
 				0FAA000D289ABCC700178C8A /* LaunchScreen.storyboard */,
@@ -281,10 +329,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAEEDEB289C00DB000B9C22 /* SudDemoViewController.swift in Sources */,
+				FAAEEDDF289BFF6C000B9C22 /* MexDemoViewController.swift in Sources */,
+				FAAEEDD5289BF936000B9C22 /* BulgariaViewController.swift in Sources */,
+				FAAEEDD7289BF96E000B9C22 /* MexicoViewController.swift in Sources */,
+				FAAEEDDD289BFF4E000B9C22 /* MexPartiesViewController.swift in Sources */,
+				FAAEEDE3289C001D000B9C22 /* TaiwPartyViewController.swift in Sources */,
 				0FAA000A289ABCC500178C8A /* GloPol.xcdatamodeld in Sources */,
 				0FAA0004289ABCC500178C8A /* ViewController.swift in Sources */,
 				0FAA0000289ABCC500178C8A /* AppDelegate.swift in Sources */,
+				FAAEEDEF289C01D2000B9C22 /* BulgPartyViewController.swift in Sources */,
 				0FAA0033289AEA8500178C8A /* SecondViewController.swift in Sources */,
+				FAAEEDE1289BFFD4000B9C22 /* TaiGovViewController.swift in Sources */,
+				FAAEEDF1289C01EE000B9C22 /* BulgDemoViewController.swift in Sources */,
+				FAAEEDE9289C00A2000B9C22 /* SudPartyViewController.swift in Sources */,
+				FAAEEDE5289C0052000B9C22 /* TaiwDemoViewController.swift in Sources */,
+				FAAEEDDB289BFF36000B9C22 /* MexGovViewController.swift in Sources */,
+				FAAEEDE7289C007A000B9C22 /* SudGovViewController.swift in Sources */,
+				FAAEEDED289C011C000B9C22 /* BulgGovViewController.swift in Sources */,
+				FAAEEDD9289BF984000B9C22 /* VietnamViewController.swift in Sources */,
+				FAAEEDD3289BF69E000B9C22 /* SudanViewController.swift in Sources */,
 				0FAA0002289ABCC500178C8A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
