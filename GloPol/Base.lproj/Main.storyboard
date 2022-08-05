@@ -56,60 +56,89 @@
             <objects>
                 <viewController id="UdY-JJ-uvd" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FnT-XR-voa">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Map" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mg8-DF-gc5">
-                                <rect key="frame" x="130" y="192" width="136" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ut-Du-rLi">
-                                <rect key="frame" x="37" y="230" width="70" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Mexico"/>
-                                <connections>
-                                    <action selector="MexicoButtonTapped:" destination="onU-5O-vvs" eventType="touchUpInside" id="viP-Tq-eCf"/>
-                                    <segue destination="5OX-s7-kMN" kind="show" id="7lQ-Hw-6hP"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjX-mF-TUq">
-                                <rect key="frame" x="55" y="450" width="77" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Bulgaria"/>
-                                <connections>
-                                    <action selector="BulgariaButtonTapped:" destination="onU-5O-vvs" eventType="touchUpInside" id="B3r-ZE-Sih"/>
-                                    <action selector="SudanButtonTapped:" destination="onU-5O-vvs" eventType="touchUpInside" id="taB-fE-u7y"/>
-                                    <segue destination="cA5-UR-KFN" kind="show" id="LQa-Lk-RYc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XdL-6n-v4M">
-                                <rect key="frame" x="275" y="450" width="69" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Taiwan"/>
-                                <connections>
-                                    <action selector="TaiwanButtonTapped:" destination="onU-5O-vvs" eventType="touchUpInside" id="xE0-fi-lew"/>
-                                    <segue destination="dVG-bd-hk1" kind="show" id="pDc-Zi-KQC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdp-qW-23Y">
-                                <rect key="frame" x="267" y="246" width="85" height="112"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Sudan"/>
-                                <connections>
-                                    <action selector="SudanButtonTapped:" destination="onU-5O-vvs" eventType="touchUpInside" id="deT-bs-Luu"/>
-                                    <segue destination="cl4-y2-CeT" kind="show" id="yPG-dY-N3h"/>
-                                </connections>
-                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8EA-Iu-rgm">
+                                <rect key="frame" x="0.0" y="171" width="414" height="534"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fj1-NT-kyy">
+                                        <rect key="frame" x="0.0" y="0.0" width="799" height="534"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="World_map_blank_with_blue_sea.svg" translatesAutoresizingMaskIntoConstraints="NO" id="EVa-X8-Vwk">
+                                                <rect key="frame" x="-72" y="-26" width="942" height="585"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdp-qW-23Y">
+                                                <rect key="frame" x="416" y="194" width="45" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="📍"/>
+                                                <connections>
+                                                    <action selector="SudanButtonTapped:" destination="onU-5O-vvs" eventType="touchUpInside" id="deT-bs-Luu"/>
+                                                    <segue destination="cl4-y2-CeT" kind="show" id="yPG-dY-N3h"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ut-Du-rLi">
+                                                <rect key="frame" x="108" y="173" width="44" height="51"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="📍"/>
+                                                <connections>
+                                                    <action selector="MexicoButtonTapped:" destination="onU-5O-vvs" eventType="touchUpInside" id="viP-Tq-eCf"/>
+                                                    <segue destination="5OX-s7-kMN" kind="show" id="7lQ-Hw-6hP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XdL-6n-v4M">
+                                                <rect key="frame" x="612" y="173" width="69" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="📍"/>
+                                                <connections>
+                                                    <action selector="TaiwanButtonTapped:" destination="onU-5O-vvs" eventType="touchUpInside" id="xE0-fi-lew"/>
+                                                    <segue destination="dVG-bd-hk1" kind="show" id="pDc-Zi-KQC"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjX-mF-TUq">
+                                                <rect key="frame" x="394" y="126" width="59" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="📍"/>
+                                                <connections>
+                                                    <action selector="BulgariaButtonTapped:" destination="onU-5O-vvs" eventType="touchUpInside" id="B3r-ZE-Sih"/>
+                                                    <action selector="SudanButtonTapped:" destination="onU-5O-vvs" eventType="touchUpInside" id="taB-fE-u7y"/>
+                                                    <segue destination="cA5-UR-KFN" kind="show" id="LQa-Lk-RYc"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="534" id="PMC-Nb-rJL"/>
+                                            <constraint firstAttribute="width" constant="799" id="il3-2c-0Zc"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="fj1-NT-kyy" firstAttribute="leading" secondItem="8EA-Iu-rgm" secondAttribute="leading" id="LPH-vK-HqP"/>
+                                    <constraint firstAttribute="trailing" secondItem="fj1-NT-kyy" secondAttribute="trailing" constant="385" id="Po7-NA-aId"/>
+                                    <constraint firstItem="fj1-NT-kyy" firstAttribute="top" secondItem="8EA-Iu-rgm" secondAttribute="top" id="T1Z-Xr-n7K"/>
+                                    <constraint firstAttribute="trailing" secondItem="fj1-NT-kyy" secondAttribute="trailing" id="Um1-TW-E6z"/>
+                                    <constraint firstItem="fj1-NT-kyy" firstAttribute="width" secondItem="4l6-d6-A4e" secondAttribute="width" id="afC-We-F4n"/>
+                                    <constraint firstAttribute="bottom" secondItem="fj1-NT-kyy" secondAttribute="bottom" id="rde-m5-KtG"/>
+                                    <constraint firstAttribute="height" constant="534" id="vXD-zn-HBZ"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="4l6-d6-A4e"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="MbE-1s-Qeg"/>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2KC-ep-DRn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2KC-ep-DRn" firstAttribute="bottom" secondItem="8EA-Iu-rgm" secondAttribute="bottom" constant="108" id="46c-Xk-YWw"/>
+                            <constraint firstItem="8EA-Iu-rgm" firstAttribute="top" secondItem="2KC-ep-DRn" secondAttribute="top" constant="127" id="Dws-3F-PfX"/>
+                            <constraint firstItem="8EA-Iu-rgm" firstAttribute="leading" secondItem="2KC-ep-DRn" secondAttribute="leading" id="hHV-v7-gbS"/>
+                            <constraint firstItem="8EA-Iu-rgm" firstAttribute="trailing" secondItem="2KC-ep-DRn" secondAttribute="trailing" id="x4G-Ej-X6e"/>
+                        </constraints>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="i5d-PP-WV2"/>
@@ -125,7 +154,7 @@
             <objects>
                 <viewController id="cl4-y2-CeT" customClass="SudanViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8qw-7s-pbs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fA5-t1-ua6">
@@ -210,14 +239,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QdP-TN-Dl2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1547.8260869565217" y="435.9375"/>
+            <point key="canvasLocation" x="1622" y="436"/>
         </scene>
         <!--Sud Gov View Controller-->
         <scene sceneID="iaC-7z-uAF">
             <objects>
                 <viewController id="vaU-VC-X9i" customClass="SudGovViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="taj-5g-Uzt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ht-ee-c5d">
@@ -230,10 +259,10 @@
                                 </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Akr-lG-V8Z">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gMP-0a-dG7">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1596"/>
                                         <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="gao-bU-9FA"/>
@@ -271,7 +300,7 @@
             <objects>
                 <viewController id="M5D-t9-33G" customClass="SudPartyViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="SqO-dQ-aWG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpf-kv-Ulo">
@@ -324,8 +353,8 @@
         <scene sceneID="m7x-nA-OF3">
             <objects>
                 <viewController id="xJd-3P-UbS" customClass="SudDemoViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="DIN-jn-4s1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                    <view key="view" contentMode="scaleToFill" id="DIN-jn-4s1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ikz-kU-x0V">
@@ -337,11 +366,11 @@
                                     <segue destination="cl4-y2-CeT" kind="show" id="Ni9-xS-71x"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rLS-Yr-Qkh">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rLS-Yr-Qkh">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BUX-H6-eOa">
-                                        <rect key="frame" x="0.0" y="0.0" width="406" height="1500"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BUX-H6-eOa">
+                                        <rect key="frame" x="0.0" y="0.0" width="406" height="1596"/>
                                         <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="htw-s3-E2h"/>
@@ -379,7 +408,7 @@
             <objects>
                 <viewController id="cA5-UR-KFN" customClass="BulgariaViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h3C-hk-5eU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBu-1A-zYI">
@@ -470,8 +499,8 @@
         <scene sceneID="f8j-vM-Qar">
             <objects>
                 <viewController id="KX5-Xi-x2X" customClass="BulgGovViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="E4r-bB-aeh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                    <view key="view" contentMode="scaleToFill" id="E4r-bB-aeh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frd-Qh-Enc">
@@ -483,11 +512,11 @@
                                     <segue destination="cA5-UR-KFN" kind="show" id="fs2-9Y-kcr"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Zz-v7-Cb4">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Zz-v7-Cb4">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Znp-WK-kzI">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Znp-WK-kzI">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1596"/>
                                         <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="NdH-yZ-w14"/>
@@ -524,8 +553,8 @@
         <scene sceneID="09f-hd-LDE">
             <objects>
                 <viewController id="ma1-hG-1aP" customClass="BulgPartyViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="XR0-up-QAX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                    <view key="view" contentMode="scaleToFill" id="XR0-up-QAX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cds-GW-OdI">
@@ -537,10 +566,10 @@
                                     <segue destination="cA5-UR-KFN" kind="show" id="zrc-ih-rGo"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mIv-Vg-GUg">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIv-Vg-GUg">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W8A-k9-q2T">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W8A-k9-q2T">
                                         <rect key="frame" x="0.0" y="0.0" width="406" height="1596"/>
                                         <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -578,8 +607,8 @@
         <scene sceneID="elc-iU-8B9">
             <objects>
                 <viewController id="YSU-M7-26c" customClass="BulgDemoViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="eId-eY-ZBV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                    <view key="view" contentMode="scaleToFill" id="eId-eY-ZBV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofv-Kc-HjV">
@@ -591,11 +620,11 @@
                                     <segue destination="cA5-UR-KFN" kind="show" id="aOr-QJ-tNh"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jzs-oR-hC5">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jzs-oR-hC5">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qzq-cG-yGI">
-                                        <rect key="frame" x="0.0" y="0.0" width="406" height="1500"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qzq-cG-yGI">
+                                        <rect key="frame" x="0.0" y="0.0" width="406" height="1596"/>
                                         <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="Sty-ec-Nug"/>
@@ -633,11 +662,11 @@
             <objects>
                 <viewController id="dVG-bd-hk1" customClass="VietnamViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5WF-KA-4G0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xro-Km-1Lw">
-                                <rect key="frame" x="11" y="56" width="69" height="31"/>
+                                <rect key="frame" x="11" y="442" width="69" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="&lt; Back"/>
@@ -646,7 +675,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="taiwanTitle" translatesAutoresizingMaskIntoConstraints="NO" id="N0N-0J-Bi7">
-                                <rect key="frame" x="-158" y="-12" width="724" height="969"/>
+                                <rect key="frame" x="-155" y="0.0" width="724" height="969"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caw-O2-Bam">
@@ -710,9 +739,22 @@
                                     <segue destination="Oz9-nP-zDT" kind="show" id="fL7-QG-533"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wbD-TA-Osq">
+                                <rect key="frame" x="-396" y="436" width="406" height="882"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="882" id="jAO-pf-hZl"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ofL-yB-Fdc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wbD-TA-Osq" firstAttribute="top" secondItem="5WF-KA-4G0" secondAttribute="top" constant="436" id="Bza-wt-nEo"/>
+                            <constraint firstAttribute="trailing" secondItem="wbD-TA-Osq" secondAttribute="trailing" constant="404" id="GdI-lx-FMe"/>
+                            <constraint firstItem="wbD-TA-Osq" firstAttribute="leading" secondItem="5WF-KA-4G0" secondAttribute="leading" constant="-396" id="UoN-8l-oMI"/>
+                            <constraint firstAttribute="bottom" secondItem="wbD-TA-Osq" secondAttribute="bottom" constant="-422" id="qIE-nf-7J0"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="BDH-lQ-qn1"/>
                 </viewController>
@@ -724,8 +766,8 @@
         <scene sceneID="Ydf-Jk-9dI">
             <objects>
                 <viewController id="irb-O4-Fcn" customClass="TaiGovViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="17u-JZ-RpD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                    <view key="view" contentMode="scaleToFill" id="17u-JZ-RpD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfy-HY-ym8">
@@ -737,11 +779,11 @@
                                     <segue destination="dVG-bd-hk1" kind="show" id="0LC-Ib-QDy"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JE5-J7-Tkf">
-                                <rect key="frame" x="0.0" y="44" width="414" height="798"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JE5-J7-Tkf">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fXE-Zm-dXt">
-                                        <rect key="frame" x="0.0" y="-66" width="414" height="1566"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXE-Zm-dXt">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1596"/>
                                         <color key="backgroundColor" red="0.89411771299999998" green="0.84705877299999999" blue="0.7607843876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="j23-j7-gbB"/>
@@ -779,7 +821,7 @@
             <objects>
                 <viewController id="uyL-tk-Ow9" customClass="TaiwPartyViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8RO-dU-m7s">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddS-aR-qxj">
@@ -833,7 +875,7 @@
             <objects>
                 <viewController id="Oz9-nP-zDT" customClass="TaiwDemoViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="m2c-89-n6R">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3p-0Z-vJx">
@@ -901,7 +943,7 @@
             <objects>
                 <viewController id="5OX-s7-kMN" customClass="MexicoViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J0M-14-deX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAS-vQ-UOu">
@@ -1004,8 +1046,8 @@
         <scene sceneID="2uT-tQ-siI">
             <objects>
                 <viewController id="NUk-lL-PPZ" customClass="MexGovViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="5NX-Qj-DR3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="788"/>
+                    <view key="view" contentMode="scaleToFill" id="5NX-Qj-DR3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfk-oS-g2G">
@@ -1017,10 +1059,10 @@
                                     <segue destination="5OX-s7-kMN" kind="show" id="N7F-Qs-0UZ"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GMG-27-BQQ">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GMG-27-BQQ">
                                 <rect key="frame" x="0.0" y="44" width="414" height="798"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lTs-Zo-hhN">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lTs-Zo-hhN">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1603"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bnw-ob-7r2">
@@ -1068,7 +1110,7 @@
             <objects>
                 <viewController id="KCo-Ow-kgs" customClass="MexPartiesViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="U9a-xM-2Lq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uL-1q-FwK">
@@ -1130,7 +1172,7 @@
             <objects>
                 <viewController id="IPK-Ge-OUq" customClass="MexDemoViewController" customModule="GloPol" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="qWL-yl-Frs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sgy-fU-8aX">
@@ -1190,14 +1232,15 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="N7F-Qs-0UZ"/>
-        <segue reference="GpD-kJ-D4w"/>
-        <segue reference="aOr-QJ-tNh"/>
-        <segue reference="Ni9-xS-71x"/>
-        <segue reference="kDc-Pe-7Lp"/>
+        <segue reference="7lQ-Hw-6hP"/>
+        <segue reference="pDc-Zi-KQC"/>
+        <segue reference="LQa-Lk-RYc"/>
+        <segue reference="yPG-dY-N3h"/>
+        <segue reference="UTS-pj-YNR"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Mexicotitle" width="378" height="840"/>
+        <image name="World_map_blank_with_blue_sea.svg" width="1280" height="650"/>
         <image name="taiwanTitle" width="350" height="812"/>
         <image name="unnamed" width="430" height="946"/>
         <image name="unnamed-3" width="376" height="842"/>
